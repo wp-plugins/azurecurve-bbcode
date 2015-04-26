@@ -8,12 +8,7 @@ Requires at least: 3.3
 Tested up to: 4.2.0
 Stable tag: 1.0.0
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-Allows users to use standard bbcode in posts and pages.
-
-== Description ==
-Allows users to use standard bbcode in posts and pages in place of HTML.
+License URI: http://www.gnu.org/licenses/gpl-2.0.htmlAllows users to use standard bbcode in posts and pages in place of HTML.
 
 The following bbcodes can be used:
 Bold: [b]bold[/b]
@@ -31,8 +26,13 @@ Unordered lists: [ul][li][/li][li][/li][/ul]
 Table: [table][tr][th][/th][th][/th][/tr][tr][td][/td][td][/td][/tr][tr][td][/td][td][/td][/tr][/table]
 Code:[code]function azc_bbcode_bold($atts, $content = null) { return "<span class='azc_bbc_bold'>".do_shortcode($content)."</span>"; }[/code]
 
+Allows users to use standard bbcode in posts and pages.
+
+== Description ==
+
+
 == Installation ==
-To install the plugin copy the <em>azurcurve-posts-archive</em> folder into your plug-in directory and activate it.
+To install the plugin copy the <em>azurcurve-bbcode</em> folder into your plug-in directory and activate it.
 
 == Changelog ==
 Changes and feature additions for the BBCode plugin:
